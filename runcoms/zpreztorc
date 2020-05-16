@@ -29,6 +29,7 @@ zstyle ':prezto:*:*' color 'yes'
 
 # Set the Prezto modules to load (browse modules).
 # The order matters.
+# kubectl is from https://github.com/prezto-contributions/prezto-kubectl
 zstyle ':prezto:load' pmodule \
   'environment' \
   'terminal' \
@@ -45,7 +46,8 @@ zstyle ':prezto:load' pmodule \
   'fasd' \
   'git' \
   'node' \
-  'python'
+  'python' \
+  'kubectl'
 
 #
 # Autosuggestions
